@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v1.0.2 (2026-09-25)
+
+### Chores
+
+- **pyproject**: Adjust project url
+  ([`b36bab7`](https://github.com/anaticulae/decider-chapter/commit/b36bab7e4ffebe78083064ffa1ae598fa82f85e8))
+
+- **pyproject**: Sort dependencies
+  ([`3c9eb99`](https://github.com/anaticulae/decider-chapter/commit/3c9eb99252c4ffa19090416bd0cd0bb332aa09db))
+
+- **requirements**: Upgrade pyproject.toml
+  ([`62c7bc2`](https://github.com/anaticulae/decider-chapter/commit/62c7bc2af417a59c3a9ef2e94895b0cf14444906))
+
+- **tests**: Adjust resource worker
+  ([`4cadcf2`](https://github.com/anaticulae/decider-chapter/commit/4cadcf2c2ecde2e852c68f0613edbc4296bf42b5))
+
+
 ## v1.0.1 (2026-09-06)
 
 ### Bug Fixes
