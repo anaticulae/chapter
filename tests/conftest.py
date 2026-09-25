@@ -10,6 +10,7 @@
 import gennex
 import hoverpower
 import pytest
+import utilotest
 from utilotest import mp  # pylint:disable=W0611
 from utilotest import td  # pylint:disable=W0611
 
@@ -26,7 +27,7 @@ RESOURCES = [
     (hoverpower.MASTER078_PDF, '0:15'),
 ]
 
-WORKER = 6
+WORKER = utilotest.worker_count(3, onci=len(RESOURCES))
 
 
 @pytest.mark.usefixtures('session')
