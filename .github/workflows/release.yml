@@ -15,7 +15,7 @@ jobs:
       cancel-in-progress: false
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           token: ${{ secrets.REPO }}
@@ -23,7 +23,7 @@ jobs:
         run: |
           git config --global user.name "Helmut Konrad Schewe"
           git config --global user.email "helmutus@outlook.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/anaticulae/decider-chapter.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/anaticulae/chapter.git
       - name: Release and Push
         run: |
           make docker-release

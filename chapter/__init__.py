@@ -18,7 +18,7 @@ import os
 
 import chapter.path
 
-__version__ = importlib.metadata.version('decider-chapter')
+__version__ = importlib.metadata.version('chapter')
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-PROCESS = 'decider_chapter'
+PROCESS = 'chapter'
