@@ -12,6 +12,8 @@ import utilo
 import utilotest
 
 import chapter
+import chapter.path
+import chapter.serialize
 import tests.chapter
 
 
