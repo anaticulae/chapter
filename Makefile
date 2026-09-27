@@ -38,7 +38,7 @@ docker-alltest: docker-decrypt
 		-v $(CURDIR):/var/workdir\
 		-v /tmp/chapter:/tmp/chapter\
 		$(IMAGE_NAME)\
-		"baw test all"
+		"baw test generate && baw test all"
 
 docker-lint: docker-build
 	docker run\
